@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.givemepass.bottomtablayoutdemo.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:elevation="6dp"
+        app:tabTextColor="#d3d3d3"
+        app:tabSelectedTextColor="#000000"
+        app:tabIndicatorHeight="0dp"
+        android:tabStripEnabled="false"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tabs"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"/>
+</RelativeLayout>
